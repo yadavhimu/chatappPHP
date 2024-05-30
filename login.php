@@ -16,9 +16,6 @@ if(isset($_POST["name"]) && isset($_POST["phone"])){
       $_SESSION["userName"]=$name;
       $_SESSION["phone"]=$phone;
       header("location: index.php");
-
-
-
     }else{
 
 
